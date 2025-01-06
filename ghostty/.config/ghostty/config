@@ -1,0 +1,24 @@
+theme = GruvboxDarkHard
+font-family = JetBrains Mono
+font-size = 16
+cursor-style = block
+macos-titlebar-style=transparent
+window-colorspace = "display-p3"
+mouse-hide-while-typing = true
+shell-integration-features = no-cursor,sudo,no-title
+adjust-cell-height = 15%
+window-padding-balance = true 
+window-save-state = always
+
+keybind = unconsumed:cmd+s=ignore
+
+# quick tab switch
+keybind = cmd+1=goto_tab:1
+keybind = cmd+2=goto_tab:2
+keybind = cmd+3=goto_tab:3
+keybind = cmd+4=goto_tab:4
+keybind = cmd+5=goto_tab:5
+keybind = cmd+6=goto_tab:6
+keybind = cmd+7=goto_tab:7
+keybind = cmd+8=goto_tab:8
+keybind = cmd+9=goto_tab:9

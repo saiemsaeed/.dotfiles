@@ -26,7 +26,7 @@ vim.keymap.set({ "n" }, "<leader>-", "<cmd>split<CR>", {})
 
 vim.keymap.set({ "n" }, "<leader>q", "<cmd>bd<CR>", {})
 vim.keymap.set({ "n" }, "<leader>Q", "<cmd>q<CR>", {})
-vim.keymap.set({ "n" }, "<C-S>", "<cmd>wa<CR>", {})
+vim.keymap.set({ "n", "i", "v" }, "<D-s>", "<cmd>wa<CR>", {})
 
 vim.keymap.set("n", "<C-a>", "ggVG", { noremap = true, desc = "Select all text in buffer" })
 
