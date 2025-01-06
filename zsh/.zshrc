@@ -98,25 +98,8 @@ plugins=(git zsh-autosuggestions zsh-syntax-highlighting web-search)
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 #  bindkey -s ^f "tmux-sessionizer\n"
- bindkey -s ^f "sam-finder\n"
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+alias zsf='z "$(sam-finder)"'
+bindkey -s ^f "zsf\n"
 
 
 
