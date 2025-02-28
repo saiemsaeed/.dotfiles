@@ -19,6 +19,7 @@ return {
         graphql = { "prettierd" },
         go = { "gofumpt", "goimports" },
         astro = { "prettierd" },
+        java = { "google-java-format" },
       },
       formatters = {
         prettier = {
