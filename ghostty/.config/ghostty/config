@@ -11,6 +11,7 @@ window-padding-balance = true
 window-save-state = always
 
 keybind = unconsumed:cmd+s=ignore
+keybind = unconsumed:cmd+a=ignore
 
 # quick tab switch
 keybind = cmd+1=goto_tab:1
@@ -22,3 +23,5 @@ keybind = cmd+6=goto_tab:6
 keybind = cmd+7=goto_tab:7
 keybind = cmd+8=goto_tab:8
 keybind = cmd+9=goto_tab:9
+
+

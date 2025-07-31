@@ -2,7 +2,7 @@
 -- Default keymaps that are always set: https://github.com/LazyVim/LazyVim/blob/main/lua/lazyvim/config/keymaps.lua
 --
 -- Add any additional keymaps here
-vim.keymap.set({ "n", "i", "v" }, "<C-s>", "<cmd>update<CR>", { silent = true, noremap = true })
+vim.keymap.set({ "n", "i", "v" }, "<D-s>", "<cmd>update<CR>", { silent = true, noremap = true })
 
 -- Move to the beginning and end of a line in normal mode
 vim.keymap.set({ "n" }, "<C-;>", "<cmd>cnext<CR>zz", {})
@@ -38,7 +38,7 @@ vim.keymap.set({ "n" }, "<leader>Q", "<cmd>q<CR>", {})
 vim.keymap.set({ "n", "i", "v" }, "<D-s>", "<cmd>wa<CR>", {})
 
 -- Select All Text in Buffer
-vim.keymap.set("n", "<C-a>", "ggVG", { noremap = true, desc = "Select all text in buffer" })
+vim.keymap.set("n", "<D-a>", "ggVG", { noremap = true, desc = "Select all text in buffer" })
 
 vim.api.nvim_set_keymap(
   "n",
