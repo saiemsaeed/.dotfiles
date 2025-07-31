@@ -7,7 +7,6 @@ return {
       transparent_mode = true,
     },
   },
-  { "mellow-theme/mellow.nvim" },
   {
     "LazyVim/LazyVim",
     opts = {
