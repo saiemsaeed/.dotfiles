@@ -11,7 +11,7 @@ window-padding-x = 10
 window-padding-y = 10
 window-padding-balance = true
 window-save-state = always
-macos-titlebar-style = hidden
+macos-titlebar-style = tabs
 
 keybind = unconsumed:cmd+s=ignore
 keybind = unconsumed:cmd+a=ignore
@@ -29,3 +29,5 @@ keybind = cmd+9=goto_tab:9
 
 
 keybind = shift+enter=text:\n
+keybind = global:shift+ctrl+alt+super+r=toggle_quick_terminal
+quick-terminal-animation-duration = 0
