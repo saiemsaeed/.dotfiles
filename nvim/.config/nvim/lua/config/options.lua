@@ -3,7 +3,7 @@
 -- Add any additional options here
 vim.g.lazyvim_prettier_needs_config = true
 vim.g.ai_cmp = true
--- vim.g.lazyvim_picker = "snacks"
+vim.g.lazyvim_picker = "snacks"
 vim.g.lazyvim_blink_main = false
 vim.g.root_spec = { "cwd" }
 --
