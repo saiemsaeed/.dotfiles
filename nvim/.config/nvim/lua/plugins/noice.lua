@@ -27,9 +27,6 @@ return {
     notify = {
       enabled = false,
     },
-    cmdline = {
-      view = "cmdline",
-    },
     presets = {
       bottom_search = true,
       lsp_doc_border = true,

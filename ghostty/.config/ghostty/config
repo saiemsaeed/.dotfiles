@@ -1,14 +1,17 @@
 theme = GruvboxDarkHard
-font-family = JetBrains Mono
-font-size = 18
+font-family = "JetBrainsMono Nerd Font"
+font-size = 19 
 cursor-style = block
 macos-titlebar-style=transparent
 window-colorspace = "display-p3"
 mouse-hide-while-typing = true
 shell-integration-features = no-cursor,sudo,no-title
 adjust-cell-height = 15%
-window-padding-balance = true 
+window-padding-x = 10
+window-padding-y = 10
+window-padding-balance = true
 window-save-state = always
+macos-titlebar-style = hidden
 
 keybind = unconsumed:cmd+s=ignore
 keybind = unconsumed:cmd+a=ignore
@@ -25,3 +28,4 @@ keybind = cmd+8=goto_tab:8
 keybind = cmd+9=goto_tab:9
 
 
+keybind = shift+enter=text:\n

@@ -36,13 +36,6 @@ return {
         sources = {
           explorer = {
             ---@diagnostic disable-next-line: missing-fields
-            icons = {
-              tree = {
-                vertical = "  ",
-                middle = "  ",
-                last = "  ",
-              },
-            },
             diagnostics = false,
             layout = {
               cycle = false,

@@ -4,9 +4,9 @@
 -- Add any additional keymaps here
 vim.keymap.set({ "n", "i", "v" }, "<D-s>", "<cmd>update<CR>", { silent = true, noremap = true })
 
--- Move to the beginning and end of a line in normal mode
-vim.keymap.set({ "n" }, "<C-;>", "<cmd>cnext<CR>zz", {})
-vim.keymap.set({ "n" }, "<C-,>", "<cmd>cprev<CR>zz", {})
+-- -- Move to the beginning and end of a line in normal mode
+-- vim.keymap.set({ "n" }, "<C-;>", "<cmd>cnext<CR>zz", {})
+-- vim.keymap.set({ "n" }, "<C-,>", "<cmd>cprev<CR>zz", {})
 
 -- Move selected line / block of text in visual mode up and down
 vim.keymap.set({ "v" }, "J", ":m '>+1<CR>gv=gv", {})
@@ -46,3 +46,14 @@ vim.api.nvim_set_keymap(
   "<cmd>lua require('neotest').run.run({ jestCommand = 'jest --watch ' })<cr>",
   {}
 )
+
+vim.keymap.set("n", "<c-/>", function()
+  Snacks.terminal(nil, {
+    cwd = LazyVim.root(),
+    win = {
+      width = 0.25,
+      height = 0.5,
+      position = "right",
+    },
+  })
+end, { desc = "Terminal (Root Dir)" })
