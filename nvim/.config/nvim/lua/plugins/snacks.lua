@@ -37,16 +37,17 @@ return {
           explorer = {
             ---@diagnostic disable-next-line: missing-fields
             diagnostics = false,
+            auto_close = true,
             layout = {
               cycle = false,
               preview = false,
               layout = {
                 backdrop = false,
-                width = 50,
+                width = 80,
                 min_width = 40,
                 height = 0,
-                position = "left",
-                border = "none",
+                position = "float",
+                border = "rounded",
                 box = "vertical",
               },
             },
