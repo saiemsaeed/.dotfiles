@@ -190,6 +190,7 @@ function cd_func {
 
 alias cd="cd_func"
 alias vim="nvim"
+alias vi="nvim"
 alias lg="lazygit"
 alias gco='git checkout'
 
