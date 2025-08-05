@@ -192,7 +192,11 @@ alias cd="cd_func"
 alias vim="nvim"
 alias vi="nvim"
 alias lg="lazygit"
-alias gco='git checkout'
+alias gco="git checkout"
+alias gl="git log --oneline --graph --decorate --all"
+alias gpo="git push origin"
+alias gcm="git commit -m"
+alias gwl="git worktree list"
 
 # Function to create a general git worktree
 gwc() {
@@ -262,7 +266,7 @@ gwp() {
     fi
 }
 
-
+# Function to remove a git worktree
 gwr() {
     echo "Are you sure you want to remove this worktree? (y/n)"
     read ans
@@ -301,6 +305,7 @@ gwr() {
     fi
 }
 
+# Function to force pull the current branch from origin
 gpf() {
     # Get current branch name
     local CURRENT_BRANCH=$(git rev-parse --abbrev-ref HEAD)
@@ -346,6 +351,7 @@ gpf() {
         fi
     fi
 }
+
 
 PROMPT_NEEDS_NEWLINE=false
 precmd() {
