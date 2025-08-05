@@ -352,6 +352,14 @@ gpf() {
     fi
 }
 
+gwm() {
+    local worktree
+    worktree=$(git worktree list --porcelain | grep '^worktree ' | cut -d' ' -f2- | fzf)
+
+    if [ -n "$worktree" ]; then
+        cd "$worktree" || return
+    fi
+}
 
 PROMPT_NEEDS_NEWLINE=false
 precmd() {
