@@ -36,3 +36,5 @@ keybind = ctrl+opt+shift+cmd+l=goto_split:right
 keybind = shift+enter=text:\n
 keybind = global:shift+ctrl+alt+super+r=toggle_quick_terminal
 quick-terminal-animation-duration = 0
+
+custom-shader = shaders/cursor_smear.glsl
