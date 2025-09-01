@@ -1,0 +1,43 @@
+add_newline = false
+
+format = """
+$character\
+$directory\
+$git_branch\
+$git_status\
+\
+"""
+
+[character]
+success_symbol = " [σ](bold #a89984)"
+error_symbol = " [σ](bold #a89984)"
+vimcmd_symbol = " [σ](bold #a89984)"
+format = '$symbol'
+
+[directory]
+format = "[ /$path ]($style)"
+style = "#a89984"
+truncation_length = 2
+truncation_symbol = ""
+
+[git_branch]
+symbol = ""
+format = '[$symbol $branch ]($style)'
+style = "#b16286"
+truncation_symbol = ""
+
+[git_status]
+format = '[$all_status$ahead_behind]($style) '
+style = "#b16286"
+conflicted = "="
+stashed = "⚑"
+deleted = "✘"
+renamed = "»"
+modified = "!"
+typechanged = "◉"
+staged = "+"
+untracked = "?"
+ahead = '⇡${count}'
+diverged = '⇕⇡${ahead_count}⇣${behind_count}'
+behind = '⇣${count}'
+

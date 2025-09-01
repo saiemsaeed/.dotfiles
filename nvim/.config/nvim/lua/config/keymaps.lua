@@ -57,3 +57,5 @@ vim.keymap.set("n", "<c-/>", function()
     },
   })
 end, { desc = "Terminal (Root Dir)" })
+
+vim.keymap.set("i", "jk", "<esc>", { noremap = true, desc = "Select all text in buffer" })
