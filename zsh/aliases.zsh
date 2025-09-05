@@ -14,3 +14,7 @@ alias gwl="git worktree list"
 
 # Zoxide
 alias cd="z"
+
+#AI 
+export ai="claude"
+export ao="opencode"
