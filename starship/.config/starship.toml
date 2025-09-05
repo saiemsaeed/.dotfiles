@@ -9,9 +9,9 @@ $git_status\
 """
 
 [character]
-success_symbol = " [σ](bold #a89984)"
+success_symbol = " [σ](bold green)"
 error_symbol = " [σ](bold #a89984)"
-vimcmd_symbol = " [σ](bold #a89984)"
+vimcmd_symbol = " [σ](bold green)"
 format = '$symbol'
 
 [directory]

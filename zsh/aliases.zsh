@@ -11,3 +11,6 @@ alias gl="git log --oneline --graph --decorate --all"
 alias gpo="git push origin"
 alias gcm="git commit -m"
 alias gwl="git worktree list"
+
+# Zoxide
+alias cd="z"
