@@ -16,5 +16,5 @@ alias gwl="git worktree list"
 alias cd="z"
 
 #AI 
-export ai="claude"
-export ao="opencode"
+alias ai="claude"
+alias ao="opencode"
