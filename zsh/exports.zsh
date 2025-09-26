@@ -17,5 +17,8 @@ export VOLTA_HOME="$HOME/.volta"
 export LOUNGE_LOCAL_CERTIFICATE=/Users/sasaeed/code/zalando/zl-skipper/tools/proxy/_wildcard.local.zlounge.org.pem
 export LOUNGE_LOCAL_CERTIFICATE_KEY=/Users/sasaeed/code/zalando/zl-skipper/tools/proxy/_wildcard.local.zlounge.org-key.pem
 
+# Package manager configuration (npm or yarn)
+export PACKAGE_MANAGER=${PACKAGE_MANAGER:-yarn}
+
 # Load sensitive environment variables from .env file
 [[ -f ~/.dotfiles/zsh/.env ]] && source ~/.dotfiles/zsh/.env

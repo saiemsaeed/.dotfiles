@@ -50,4 +50,3 @@ function cd_func {
 
 # Fast directory navigation with sam-finder
 alias zsf='z "$(sam-finder)"'
-bindkey -s ^f "zsf\n"

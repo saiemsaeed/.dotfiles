@@ -1,4 +1,4 @@
-theme = GruvboxDarkHard
+theme = Gruvbox Dark Hard
 font-family = "JetBrainsMono Nerd Font"
 font-size = 17 
 cursor-style = block
@@ -13,8 +13,7 @@ window-padding-balance = true
 window-save-state = always
 macos-titlebar-style = tabs
 
-keybind = unconsumed:cmd+s=ignore
-keybind = unconsumed:cmd+a=ignore
+keybind = unconsumed:cmd+a=unbind
 
 # quick tab switch
 keybind = cmd+1=goto_tab:1
@@ -35,6 +34,7 @@ keybind = ctrl+opt+shift+cmd+l=goto_split:right
 
 keybind = global:shift+ctrl+alt+super+r=toggle_quick_terminal
 quick-terminal-animation-duration = 0
+quick-terminal-size = 40%
 
-custom-shader = shaders/cursor_smear.glsl
+# custom-shader = shaders/cursor_smear.glsl
 keybind = shift+enter=text:\x1b\r

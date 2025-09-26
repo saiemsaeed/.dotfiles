@@ -13,8 +13,18 @@ alias gcm="git commit -m"
 alias gwl="git worktree list"
 
 # Zoxide
-alias cd="z"
+# alias cd="z"
 
 #AI 
 alias ai="claude"
-alias ao="opencode"
+alias cld="claude --dangerously-skip-permissions"
+
+# AO function - updates ZTOKEN from ztoken script and runs opencode
+function ao() {
+    export ZTOKEN=$(ztoken)
+    opencode
+}
+
+# Script runner
+alias ss="run_scripts"
+
